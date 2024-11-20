@@ -9,7 +9,7 @@ public class Cheers {
                 String lowerLetters = "aefhilmnorsx";
                 char ch = ' ';
                 char upper = ' ';
-                String upperWordOfCheer = " ";
+                String upperWordOfCheer = "";
         
                 for(int i=0;i<lengthWord;i++)
                 {
@@ -64,8 +64,8 @@ public class Cheers {
                 while(count1<amountOfCheers)
                 {
         
-                    System.out.println(upperWordOfCheer + "!!!");
-                    count1++;
+                System.out.println(upperWordOfCheer + "!!!");
+                count1++;
                 }
         }
 }
